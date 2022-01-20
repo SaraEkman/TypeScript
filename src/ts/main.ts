@@ -8,28 +8,28 @@ window.onload = () => {
   arrs.push(99)
   console.log(arrs)
 
-  let myObj: obj = {
+  let myObj: Obj = {
     name: 'Sara',
     age: 22,
     married: false,
   }
-  let myMam: obj = {
+  let myMam: Obj = {
     name: 'Anna',
     age: 62,
     married: false,
   }
-  let myDou: obj = {
+  let myDou: Obj = {
     name: 'Hellen',
     age: 7,
     married: false,
   }
-  let myFath: obj = {
+  let myFath: Obj = {
     name: 'pap',
     age: 42,
     married: true,
   }
 
-  let myArrs: obj[] = [myObj, myMam, myDou, myFath]
+  let myArrs: Obj[] = [myObj, myMam, myDou, myFath]
   for (let i = 0; i < myArrs.length; i++) {
     let container = document.createElement('div')
     let heading = document.createElement('h1')
@@ -54,7 +54,7 @@ function add(x: number, y: number): number {
   return x + y
 }
 
-interface obj {
+interface Obj {
   name: string
   age: number
   married: Boolean
