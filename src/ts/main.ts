@@ -14,18 +14,18 @@ window.onload = () => {
     married: false,
   }
   let myMam: Obj = {
-    name: 'Anna',
+    name: 'Anili',
     age: 62,
-    married: false,
+    married: true,
   }
   let myDou: Obj = {
-    name: 'Hellen',
+    name: 'Sarita',
     age: 7,
     married: false,
   }
   let myFath: Obj = {
-    name: 'pap',
-    age: 42,
+    name: 'kalle',
+    age: 65,
     married: true,
   }
 
